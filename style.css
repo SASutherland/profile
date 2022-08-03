@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #F9F5EB;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  color: #1C3879;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  color: #607EAA;
+  font-size: smaller;
+}
+
+.btn-blue {
+  border-radius: 10px;
+  color: white;
+  background-color: #1C3879;
+  font-weight: 600;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.btn-blue:hover {
+  background-color: black;
+}
+
+.card-white {
+  background-color: white;
+  padding: 20px;
+  padding-bottom: 50px;
+  margin: 0, auto;
+  margin-bottom: 20px;
+}
+
+.container {
+  text-align: center;
+  width: 600px;
+}
+
+.follow_me {
+  color: #1C3879;
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+}
+
+.flags {
+  height: 50px;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  letter-spacing: 5px;
+  margin-bottom: 25px;
+}
+
+#codes {
+  height: 90px;
+  vertical-align: top;
+}
+
+#github {
+  color: #607EAA;
+  width: 100px;
+}
+
+#kpmg {
+  width: 100px;
+  vertical-align: bottom;
+}
+
+#nokia {
+  width: 150px;
+  vertical-align: bottom;
+  padding-bottom: 1px;
+}
+
+#profile_pic {
+  border-radius: 50%;
+  width: 100px;
+}
+
+#ruby {
+  height: 55px;
+  vertical-align: top;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 560px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 530px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
